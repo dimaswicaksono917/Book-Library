@@ -1,0 +1,32 @@
+.carousel-inner {
+    border-radius: 20px !important;
+}
+
+.carousel-caption {
+    left: 70px;
+    top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    justify-content: start !important;
+    text-align: start !important;
+}
+
+.carousel-caption h1 {
+    font-weight: 700 !important;
+    font-size: 42px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+}
+
+.carousel-images img {
+    width: 370px;
+    position: absolute;
+    right: 130px;
+    top: -55px;
+}
+
+.nav-link {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
