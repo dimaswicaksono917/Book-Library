@@ -78,6 +78,7 @@
                 @if ($booknew->count() > 0)
                 @foreach ($booknew as $item)
                     <div class="col-3">
+                        <a href="{{ route('allbook.view', $item->id) }}" class="card-link">
                         <div class="card-book justify-content-center text-center">
                             <div class="card-image">
                                 <img src="{{ asset($item->image) }}" alt="">
@@ -87,6 +88,7 @@
                                     <h6 class="text-semi-black">by {{ $item->author }}</h6>
                             </div>
                         </div>
+                        </a>
                     </div>
                 @endforeach
             @else
